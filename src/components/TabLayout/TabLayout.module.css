@@ -1,0 +1,28 @@
+.tabs {
+  margin: 0.25rem;
+}
+
+.button {
+  margin: 0.25rem;
+  padding: 0.4rem 0.7rem;
+  background: none;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: var(--active-color);
+  color: var(--active-color);
+}
+
+.active,
+.active:hover {
+  border-color: var(--active-color);
+  background-color: var(--active-color);
+  color: white;
+}
+
+.content {
+    margin: 0.25rem 0.75rem;
+}
